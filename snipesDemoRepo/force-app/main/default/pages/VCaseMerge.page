@@ -1,0 +1,15 @@
+<apex:page standardController="Case" extensions="VCaseMergeExt" recordSetVar="v" lightningStylesheets="true" action="{!mergeCases}">
+    <apex:form >
+        <apex:sectionHeader title="Case Merge" />
+
+        <apex:pageBlock >
+            <apex:pageMessages />
+
+            <apex:pageBlockButtons location="top">
+                <apex:commandButton value="Go Back" action="{!cancel}" />
+            </apex:pageBlockButtons>
+
+            <apex:pageBlockSection ></apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
